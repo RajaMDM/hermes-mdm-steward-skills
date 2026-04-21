@@ -1,0 +1,19 @@
+supplier_id,legal_name,trading_name,trn,country,po_box,emirate,phone,email,brand_used_by,created_date,status
+NX-SUP-00142,Dubai Trading LLC,Dubai Trading,100123456700003,UAE,12345,Dubai,+971-4-1234567,info@dubaitrading.ae,Verdant Grocers,2019-03-15,Active
+NX-SUP-00189,DUBAI TRADING L.L.C.,DUBAI TRADING,100123456700003,United Arab Emirates,12345,DXB,971412345678,sales@dubaitrading.ae,Luxora Beauty,2021-07-02,Active
+NX-SUP-00203,Dubai Trading Limited,,,UAE,12345,Dubai,+971 4 123 4567,,Kindle & Loom,2022-11-20,Pending Review
+NX-SUP-00311,Al-Futtaim Foods FZE,Al-Futtaim,100987654300001,UAE,54321,Dubai,+971-4-9876543,supply@alfuttaimfoods.ae,Verdant Grocers,2018-05-10,Active
+NX-SUP-00312,AL FUTTAIM FOODS FZE ,AL-FUTTAIM FOODS,100987654300001,UAE,54321,Dubayy,,,Verdant Grocers,2020-01-14,Active
+NX-SUP-00445,Emirates Cosmetics Co.,Emirates Cosmetics,100555666700002,UAE,77889,Sharjah,+971-6-5551234,orders@emiratescosmetics.ae,Luxora Beauty,2019-09-22,Active
+NX-SUP-00446,EMIRATES COSMETICS COMPANY,,100555666700002,UAE,77889,Sharjah,+9716551234,,Luxora Beauty,2023-02-05,Active
+NX-SUP-00501,StridePro Sports Ltd,StridePro,100111222300004,UAE,88990,Abu Dhabi,+971-2-4445555,sales@stridepro.com,StrideSport,2020-06-18,Active
+NX-SUP-00502,Stride Pro Sporting Goods Ltd.,Stride Pro,,UAE,88990,AUH,+971 2 444 5555,,StrideSport,2022-04-03,Active
+NX-SUP-00603,Petalia Textiles LLC,Petalia,100333444500005,UAE,22334,Ajman,+971-6-7778888,hello@petaliatextiles.ae,Petalia Fashion,2021-11-09,Active
+NX-SUP-00711,Kindle & Loom Crafts LLC,K&L Crafts,100666777800006,UAE,99001,Dubai,+971-4-6667777,info@klcrafts.ae,Kindle & Loom,2019-12-01,Active
+NX-SUP-00712,Kindle and Loom Crafts L.L.C.,Kindle Loom Crafts,100666777800006,UAE,99001,Dubai,,,Petalia Fashion,2022-08-15,Active
+NX-SUP-00825,Global Packaging Solutions,Global Packaging,100222333400007,UAE,11223,Dubai,+971-4-2223334,packaging@globalpkg.ae,Verdant Grocers,2017-02-28,Active
+NX-SUP-00826,Global Packaging Solutions FZE,,100222333400007,UAE,11223,Dubai,,,Luxora Beauty,2017-02-28,Inactive
+NX-SUP-00903,Arabian Logistics Co LLC,Arabian Logistics,,UAE,,Dubai,+971-4-9998887,,StrideSport,2023-05-20,Pending Review
+NX-SUP-00904,Arabian Logistics Company LLC,,100444555600008,UAE,66778,Dubai,971499988877,ops@arabianlogistics.ae,Kindle & Loom,2023-05-21,Pending Review
+NX-SUP-01012,Verdant Fresh Produce LLC,Verdant Fresh,100888999000009,UAE,33445,Ras Al Khaimah,+971-7-1112222,produce@verdantfresh.ae,Verdant Grocers,2018-08-14,Active
+NX-SUP-01098,Quick Import Traders,Quick Import,,UAE,44556,RAK,+971-7-3334444,,Petalia Fashion,2024-01-08,Pending Review

@@ -1,0 +1,19 @@
+product_id,brand,sku,product_name,category,subcategory,uom,pack_size,barcode,supplier_id,unit_cost_aed,status
+NX-PRD-10001,Verdant Grocers,VG-ORG-RICE-5,Organic Basmati Rice,Groceries,Rice & Grains,kg,5,8901234567890,NX-SUP-00311,45.00,Active
+NX-PRD-10002,Verdant Grocers,VG-ORG-RICE-5KG,ORGANIC BASMATI RICE 5KG,groceries,Rice,KG,5,08901234567890,NX-SUP-00312,45.00,Active
+NX-PRD-10015,Verdant Grocers,VG-DATE-PREM,Premium Medjool Dates,Groceries,Dried Fruits,g,500,8905555666001,NX-SUP-01012,38.50,Active
+NX-PRD-10016,Verdant Grocers,VG-DATES-MDJL,Medjool Dates - Premium,Grocery,Dry Fruits,grams,500,8905555666001,NX-SUP-01012,38.5,Active
+NX-PRD-20005,Luxora Beauty,LX-LIP-RED-03,Velvet Matte Lipstick - Crimson,Beauty,Lip Color,pcs,1,8907777888002,NX-SUP-00445,22.00,Active
+NX-PRD-20006,Luxora Beauty,LX-LIP-CRIMSON,Luxora Velvet Lipstick (Crimson),Beauty,Lipstick,each,1,8907777888002,NX-SUP-00446,22.00,Active
+NX-PRD-20110,Luxora Beauty,LX-SERUM-VITC-30,Vitamin C Brightening Serum 30ml,Beauty,Skincare,ml,30,8907777888115,NX-SUP-00445,89.99,Active
+NX-PRD-30001,StrideSport,SS-SHOE-RUN-M42,Men's Running Shoes - Size 42,Footwear,Running,pair,1,8909999000003,NX-SUP-00501,245.00,Active
+NX-PRD-30002,StrideSport,SS-RUN-M-42,RUNNING SHOES MENS EU42,Sports Footwear,Athletic Shoes,pair,1,8909999000003,NX-SUP-00502,245.00,Active
+NX-PRD-30055,StrideSport,SS-BOTTLE-750,Hydro Sport Bottle 750ml,Accessories,Hydration,ml,750,8909999000067,NX-SUP-00501,28.00,Active
+NX-PRD-40012,Kindle & Loom,KL-CNDL-LAV-M,Lavender Scented Candle - Medium,Home,Candles,pcs,1,8902222333004,NX-SUP-00711,45.00,Active
+NX-PRD-40013,Kindle & Loom,KL-CANDLE-LAV,Lavender Candle (Medium Size),Home Decor,Fragrance,each,1,8902222333004,NX-SUP-00712,45.00,Active
+NX-PRD-40089,Kindle & Loom,KL-CUSHN-SILK-G,Silk Cushion Cover - Gold 45x45,Home,Cushion Covers,pcs,1,8902222333089,NX-SUP-00711,65.00,Active
+NX-PRD-50003,Petalia Fashion,PF-SCARF-SILK-NV,Silk Scarf - Navy Floral,Apparel,Accessories,pcs,1,8903333444005,NX-SUP-00603,120.00,Active
+NX-PRD-50004,Petalia Fashion,PF-SCRF-FLRL-NVY,Floral Silk Scarf in Navy,Fashion,Scarves,each,1,8903333444005,NX-SUP-00603,120.00,Active
+NX-PRD-50125,Petalia Fashion,PF-ABAYA-BLK-M,Embroidered Abaya - Medium,Apparel,Abayas,pcs,1,8903333444126,NX-SUP-01098,380.00,Active
+NX-PRD-60001,Verdant Grocers,VG-OIL-OLIVE-500,Extra Virgin Olive Oil 500ml,Groceries,Cooking Oils,ml,500,,NX-SUP-00311,55.00,Active
+NX-PRD-60002,Luxora Beauty,LX-OLIVE-SOAP,Olive Oil Artisan Soap,Beauty,Bath & Body,g,100,,NX-SUP-00445,18.00,Active

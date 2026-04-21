@@ -1,0 +1,19 @@
+location_id,brand,store_name,address_line_1,address_line_2,po_box,area,emirate,country,latitude,longitude,store_type,opening_date,status
+NX-LOC-00101,Verdant Grocers,Verdant Jumeirah,Shop 12 Ground Floor,Jumeirah Plaza Mall,12345,Jumeirah,Dubai,UAE,25.2285,55.2593,Supermarket,2019-03-20,Active
+NX-LOC-00102,Verdant Grocers,Verdant JBR,Unit 5,The Walk JBR,,Jumeirah Beach Residence,DXB,United Arab Emirates,25.0775,55.1340,Supermarket,2020-11-05,Active
+NX-LOC-00103,Verdant Grocers,VERDANT DOWNTOWN,Level 2 Store 205,Dubai Mall,118,Downtown,Dubai,UAE,,,Supermarket,2021-06-15,Active
+NX-LOC-00201,Luxora Beauty,Luxora Mall of Emirates,Kiosk 45,Mall of the Emirates,,Al Barsha,Dubai,UAE,25.1181,55.2004,Counter,2019-08-12,Active
+NX-LOC-00202,Luxora Beauty,Luxora Ibn Battuta,Shop 88,Ibn Battuta Mall - China Court,,Jebel Ali,Dubai,UAE,25.0450,55.1196,Flagship,2020-02-28,Active
+NX-LOC-00203,Luxora Beauty,Luxora AUH Yas,,Yas Mall Ground Floor,127864,Yas Island,Abu Dhabi,UAE,24.4886,54.6077,Flagship,2021-10-10,Active
+NX-LOC-00204,Luxora Beauty,Luxora Sharjah,Unit G-22,Sahara Centre,,Al Nahda,Sharjah,UAE,25.3250,55.3836,Counter,2022-04-18,Active
+NX-LOC-00301,StrideSport,StrideSport Festival City,Shop 108,Festival City Mall,,Festival City,Dubai,UAE,25.2219,55.3524,Flagship,2020-01-20,Active
+NX-LOC-00302,StrideSport,StrideSport Marina Walk,,Marina Walk,,Dubai Marina,Dubai,UAE,,,Concept Store,2021-09-15,Active
+NX-LOC-00303,StrideSport,Stride Sport AD Galleria,Level 1 Unit 142,The Galleria Al Maryah,,Al Maryah Island,Abu Dhabi,United Arab Emirates,24.4987,54.3850,Flagship,2022-11-22,Active
+NX-LOC-00401,Kindle & Loom,K&L City Walk,Shop 24,City Walk Phase 2,,Al Wasl,Dubai,UAE,25.2050,55.2590,Boutique,2021-02-14,Active
+NX-LOC-00402,Kindle & Loom,Kindle Loom Al Seef,Souk Area Unit 19,Al Seef Promenade,,Al Fahidi,Dubai,UAE,,,Boutique,2022-07-08,Active
+NX-LOC-00403,Kindle & Loom,KINDLE & LOOM RAK MALL,,Al Hamra Mall,1456,Al Hamra,Ras Al Khaimah,UAE,25.6878,55.7839,Boutique,2023-03-01,Active
+NX-LOC-00501,Petalia Fashion,Petalia Fashion Avenue,Unit 2-38,Dubai Mall Fashion Avenue,,Downtown,Dubai,UAE,25.1972,55.2796,Flagship,2020-09-10,Active
+NX-LOC-00502,Petalia Fashion,Petalia Mercato,Shop 56,Mercato Mall,,Jumeirah,DXB,UAE,25.2204,55.2552,Boutique,2021-12-15,Active
+NX-LOC-00503,Petalia Fashion,Petalia Al Ain Mall,,Al Ain Mall Level 1,,Al Ain Central,Al Ain,UAE,,,Boutique,2023-08-20,Pending Opening
+NX-LOC-00504,Petalia Fashion,Petalia Khalidiya,Unit 15,Khalidiyah Mall,,Al Khalidiyah,Abu Dhabi,United Arab Emirates,24.4712,54.3454,Boutique,2024-02-05,Active
+NX-LOC-00601,Verdant Grocers,Verdant Online Fulfillment,Warehouse 4,Jebel Ali Free Zone,262144,JAFZA South,Dubai,UAE,24.9855,55.0621,Dark Store,2022-06-01,Active
