@@ -4,7 +4,24 @@ All notable changes to this project will be documented here. Format follows [Kee
 
 ---
 
-## [0.1.0] — 2026-04-21
+## [0.2.0] — 2026-04-21
+
+GCC-wide expansion of the location validator and corrections to the repo's factual claims.
+
+### Changed
+
+- **`mdm-location-validator` expanded from UAE-only to full GCC coverage** — canonical administrative-level tables for Saudi Arabia (13 regions), Kuwait (6 governorates), Qatar (8 municipalities), Bahrain (4 governorates), and Oman (11 governorates) in addition to the existing UAE (7 emirates).
+- **Per-country postal conventions** — the skill now distinguishes between PO Box–primary countries (UAE), postal-code-primary countries (KSA 5-digit, Kuwait 5-digit, Bahrain 3-4-digit, Oman 3-digit), and Qatar's zone/street/building triple (no postal code).
+- **Per-country geo-coordinate bounding boxes** — coordinate sanity checks now route by country with appropriate tolerances (±50 km for small countries, ±200 km for KSA and Oman).
+- **Removed outdated Microsoft Master Data Services reference** from README and documentation. MDS was removed from SQL Server 2025 and is no longer a current integration target. READMEs now refer generically to "your Core MDM platform" with examples of current options (Informatica IDMC, Profisee, Reltio, Ataccama).
+- **Corrected Hermes Agent version reference** — v0.10.0 is the tested target (v0.8 reference from initial release was out of date by the time of publication).
+- **Nexora Retail location dataset expanded** — added sample records across Saudi Arabia, Kuwait, Qatar, and Bahrain with realistic naming variants, to make the GCC coverage demonstrable rather than just declared.
+
+### Rationale
+
+External review raised two specific concerns: (1) Microsoft MDS no longer exists as a current product and shouldn't be used as an example integration, and (2) the UAE-only scope undersold the practitioner's actual domain, which is GCC-wide. Both fixes land in this release.
+
+---
 
 First public release. Seed skill pack and synthetic dataset for demonstrating the MDM Steward Agent pattern.
 
@@ -37,5 +54,5 @@ First public release. Seed skill pack and synthetic dataset for demonstrating th
 ### Known limitations
 
 - Local-only deployment means the host machine must be running for scheduled briefings to fire. A VPS move is on the roadmap.
-- Hermes Agent v0.8 is the tested target; framework-level breaking changes upstream may require skill pack adjustments.
-- No live connection to a real MDM platform is included; the audit operates against CSV files only. Integration with Core MDM platforms (Informatica IDMC, Microsoft MDS) is left as an exercise per deployment.
+- Hermes Agent v0.10.0 is the tested target; framework-level breaking changes upstream may require skill pack adjustments.
+- No live connection to a real MDM platform is included; the audit operates against CSV files only. Integration with any Core MDM platform (Informatica IDMC, Profisee, Reltio, or equivalent) is left as an exercise per deployment.

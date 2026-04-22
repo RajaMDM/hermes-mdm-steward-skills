@@ -1,6 +1,6 @@
 # hermes-mdm-steward-skills
 
-> Six MDM resolution playbooks as portable Hermes Agent skills. Drop in, point Hermes at them, get an on-call data steward that walks through match/merge decisions, standardizes Gulf-region addresses, composes golden records, and runs scheduled DQ audits.
+> Six MDM resolution playbooks as portable Hermes Agent skills. Drop in, point Hermes at them, get an on-call data steward that walks through match/merge decisions, standardizes GCC addresses, composes golden records, and runs scheduled DQ audits.
 
 ```
 ❯ /mdm-duplicate-resolver are supplier NX-SUP-00142 and NX-SUP-00189 the same entity?
@@ -18,6 +18,9 @@ REASONING:
 RECOMMENDED ACTION: Merge. Route through steward for survivorship.
 SURVIVING RECORD: NX-SUP-00142 (older, cleaner formatting)
 ```
+
+![Demo](demo.gif)
+
 
 Tested live on `claude-opus-4-7` and `claude-sonnet-4-6` via [Hermes Agent](https://github.com/NousResearch/hermes-agent) v0.10.0 on macOS. MIT licensed. Author: **Raja Shahnawaz Soni** — Enterprise Data Management leader, Dubai.
 
@@ -37,12 +40,14 @@ Six seed skills. Each is a single `SKILL.md` with procedure, pitfalls, and verif
 |---|---|
 | [`mdm-duplicate-resolver`](skills/mdm-duplicate-resolver/SKILL.md) | Four-gate match/merge decision for supplier and business-partner duplicates |
 | [`mdm-supplier-standardizer`](skills/mdm-supplier-standardizer/SKILL.md) | Legal-entity suffix normalization (LLC / L.L.C. / Ltd / FZE / FZCO), trading name vs legal name |
-| [`mdm-location-validator`](skills/mdm-location-validator/SKILL.md) | Gulf address standardization — PO Box, Emirate naming, geo-coordinate sanity checks |
+| [`mdm-location-validator`](skills/mdm-location-validator/SKILL.md) | GCC-wide address standardization — per-country administrative levels (emirate / region / governorate / municipality), postal conventions, geo-coordinate sanity checks |
 | [`mdm-golden-record-composer`](skills/mdm-golden-record-composer/SKILL.md) | Field-level survivorship with full provenance map |
 | [`mdm-dq-audit`](skills/mdm-dq-audit/SKILL.md) | Scheduled DQ audit with a production-ready Python helper (`scripts/run_dq_audit.py`) |
 | [`mdm-steward-briefing`](skills/mdm-steward-briefing/SKILL.md) | Concise morning briefing for email / Telegram / Slack delivery |
 
-Plus a synthetic **Nexora Retail** dataset (fictitious parent with five sub-brands — Verdant Grocers, Luxora Beauty, StrideSport, Kindle & Loom, Petalia Fashion) seeded with realistic MDM pain: cross-brand duplicates sharing TRN, Emirate naming variants, legal-entity suffix inconsistency, near-duplicate products sharing barcode. Three scenario walkthroughs ship with the repo showing the skills working end-to-end.
+**GCC coverage:** the location validator carries canonical administrative-level tables for all six GCC countries — United Arab Emirates, Saudi Arabia, Kuwait, Qatar, Bahrain, and Oman — with per-country postal conventions (PO Box vs 5-digit postal code vs Qatar's zone/street/building triple), canonical region/governorate names with common variants, and bounding-box coordinate checks per country.
+
+Plus a synthetic **Nexora Retail** dataset (fictitious parent with five sub-brands — Verdant Grocers, Luxora Beauty, StrideSport, Kindle & Loom, Petalia Fashion) seeded with realistic MDM pain: cross-brand duplicates sharing TRN, naming variants across countries, legal-entity suffix inconsistency, near-duplicate products sharing barcode. Three scenario walkthroughs ship with the repo showing the skills working end-to-end.
 
 ## Install
 
@@ -71,6 +76,7 @@ python skills/mdm-dq-audit/scripts/run_dq_audit.py
 
 # Or from inside Hermes chat:
 ❯ /mdm-duplicate-resolver [paste two records]
+❯ /mdm-location-validator [paste a KSA or Kuwait address to normalize]
 ❯ /mdm-dq-audit run the audit and summarize the top issues
 ❯ /mdm-golden-record-composer compose the golden record from the match cluster
 ```
@@ -85,8 +91,8 @@ python skills/mdm-dq-audit/scripts/run_dq_audit.py
 
 - **Not production-hardened.** Seed skills are starting points. Real deployments need tenant-specific governance, survivorship rules, and regional quirks.
 - **Hermes is at v0.10.0** (public release Feb 2026). Framework behaviour may shift. Skills follow the agentskills.io standard to minimise exposure, but verify against [current Hermes docs](https://hermes-agent.nousresearch.com/docs) before assuming anything.
-- **No connection to real MDM platforms.** The DQ audit reads CSV. Wiring to Informatica IDMC, Microsoft Master Data Services, or any Core MDM is left per-deployment — each needs its own credentials and integration pattern.
-- **UAE-first.** Canonical emirate / country tables cover UAE only. GCC-wide extension is on the roadmap.
+- **No connection to your Core MDM platform.** The DQ audit reads CSV. Wiring this pack to your platform of choice — whether Informatica IDMC, Profisee, Reltio, Ataccama, or something custom — is left per-deployment. Each needs its own credentials and integration pattern.
+- **GCC-focused.** Administrative-level tables and postal conventions cover UAE, Saudi Arabia, Kuwait, Qatar, Bahrain, and Oman. Extending beyond the GCC is on the roadmap.
 
 ## Body of work
 
