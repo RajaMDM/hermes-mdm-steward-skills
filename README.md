@@ -1,5 +1,9 @@
 # hermes-mdm-steward-skills
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Hermes Agent](https://img.shields.io/badge/Hermes%20Agent-v0.10%2B-F5A623)](https://github.com/NousResearch/hermes-agent)
+[![agentskills.io](https://img.shields.io/badge/skills-agentskills.io-34D399)](https://agentskills.io)
+
 > Six MDM resolution playbooks as portable Hermes Agent skills. Drop in, point Hermes at them, get an on-call data steward that walks through match/merge decisions, standardizes GCC addresses, composes golden records, and runs scheduled DQ audits.
 
 ```
@@ -18,9 +22,6 @@ REASONING:
 RECOMMENDED ACTION: Merge. Route through steward for survivorship.
 SURVIVING RECORD: NX-SUP-00142 (older, cleaner formatting)
 ```
-
-![Demo](demo.gif)
-
 
 Tested live on `claude-opus-4-7` and `claude-sonnet-4-6` via [Hermes Agent](https://github.com/NousResearch/hermes-agent) v0.10.0 on macOS. MIT licensed. Author: **Raja Shahnawaz Soni** — Enterprise Data Management leader, Dubai.
 
