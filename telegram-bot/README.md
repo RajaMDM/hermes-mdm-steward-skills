@@ -28,7 +28,7 @@ Utility commands: `/start`, `/help`, `/status`, `/reset`
 
 ```bash
 # 1. Navigate into the repo
-cd ~/Documents/hermes-mdm-steward-skills
+cd ~/path/to/hermes-mdm-steward-skills
 
 # 2. Create a virtual environment
 python3 -m venv telegram-bot/venv
