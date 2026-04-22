@@ -1,3 +1,13 @@
 take2.mov
 *.mov
 
+# Telegram bot secrets — never commit
+telegram-bot/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+telegram-bot/venv/
+
